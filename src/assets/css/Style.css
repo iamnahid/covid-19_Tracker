@@ -1,0 +1,69 @@
+#bodySec{
+    /* background-color: #1c1a27; */
+    
+    background-color: #121213;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#cards-det
+{
+    width: 25em;
+    height: 40em;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: rgba(49, 53, 79, 0.589);
+}
+#card-name{letter-spacing: 2px;}
+#imgData{
+    width: 100%;
+    height: 250px;
+}
+#card-Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-text,#card-text1, #card-text-danger, #card-text-success, #card-text-warning{
+    width: auto;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(31, 34, 43);
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#card-text-danger{border: 1px solid rgb(255, 0, 43);}
+#card-text-success{border: 1px solid rgb(2, 250, 77);}
+#card-text-warning{border: 1px solid rgb(236, 233, 14);}
+
+#searchBar{
+    width: 50%;
+    height: 3em;
+    letter-spacing: 5px;
+    text-align: center;
+    border: 2px solid rgb(196, 26, 63);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+    
+}
+#search label{color: rgb(255, 255, 255);letter-spacing: 5px;font-size: large;}
+
+#card-Row1{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#card-text1{
+    letter-spacing: 2px;
+}
