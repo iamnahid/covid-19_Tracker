@@ -162,6 +162,7 @@ function App() {
         <Row style={{textAlign:'center',width:'100%'}}>
           <Col>
               <div id="search" >
+                <h1 style={{textAlign:'center',color:'white', letterSpacing:'5px'}}>Search Country Data</h1>
                 <input id="searchBar" type="text" placeholder="Search Country" onChange={e=> setSearchCty(e.target.value)}/> <br/>
                 <label>**N.B:  First letter must be Capital.Ex: " Bangladesh "</label>
               </div>

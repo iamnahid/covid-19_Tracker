@@ -12,7 +12,7 @@
     display: none;
   }
 
-  
+
 #cards-det
 {
     width: 25em;
@@ -125,7 +125,7 @@
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 
     .navContainer{
         position: relative;
@@ -175,6 +175,15 @@
         left: 5%;
         width: 100%;
         
+    }
+    #search{
+        width: 100%;
+        text-align: center;
+    }
+
+    #cards-det{
+        position: relative;
+        left: 10%;
     }
     
 
