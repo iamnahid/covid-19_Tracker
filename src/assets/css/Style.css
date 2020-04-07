@@ -321,7 +321,7 @@
 
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 560px) {
     .navContainer{
         position: relative;
         top: 0;
