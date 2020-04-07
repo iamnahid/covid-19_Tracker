@@ -321,7 +321,7 @@
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 520px) {
     .navContainer{
         position: relative;
         top: 0;
@@ -378,8 +378,8 @@
 
     #cards-det{
         position: relative;
-        left: 0%;
-        width: 22em;
+        left: 5%;
+        width: 25em;
         height: 45em;
     }
     
