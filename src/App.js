@@ -1,8 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-import {Card, CardColumns, Form} from 'react-bootstrap'
+import {Card, CardColumns} from 'react-bootstrap'
 import {Container, Row, Col} from 'react-bootstrap'
 import './assets/css/Style.css'
+import fb from './assets/img/fb.png'
+import bh from './assets/img/bh.png'
+import pn from './assets/img/pn.png'
+import ld from './assets/img/ld.png'
+import gh from './assets/img/gh.png'
+import web from './assets/img/web.png'
 
 function App() {
 
@@ -79,10 +85,25 @@ function App() {
     <div className="container-fluid" id="bodySec">
       <Container fluid style={{textAlign:'center'}}>
         <Row>
+            <div className="navContainer">
+                <ul>
+                    <a id="navList" href='http://bit.ly/iamnahidFB'><img src={fb} alt=""/> </a>
+                    <a id="navList" href='http://bit.ly/iamnahidLinkedIN'><img src={ld} alt=""/> </a>
+                    <a id="navList" href='http://bit.ly/iamnahid_Web'><img src={web} alt=""/> </a>
+                    <a id="navList" href='http://bit.ly/iamnahidBehance'><img src={bh} alt=""/> </a>
+                    <a id="navList" href='http://bit.ly/iamnahidPin'><img src={pn} alt=""/> </a>
+                    <a id="navList" href='http://bit.ly/iamnahid_github'><img src={gh} alt=""/> </a>
+                </ul>
+            </div> 
+        </Row><br/><br/>
+        <Row>          
+          <Col><h1 style={{letterSpacing:'5px',color:'white'}}>IAMNAHID</h1></Col>
+        </Row>
+        <Row>
           <Col><h1 style={{letterSpacing:'5px',color:'white'}}>Covid-19 Tracker</h1></Col>
         </Row><br/><br/>
         <Row>
-          <Col>
+          {/* <Col>
               <Card bg={'primary'}>
                   <Card.Title id="card-name" style={{textAlign:'center'}}>Bangladesh</Card.Title>
                   <Card.Body>
@@ -94,9 +115,9 @@ function App() {
                     </Container>
                   </Card.Body>
               </Card>
-          </Col>
+          </Col> */}
           <Col>
-              <Card bg={'secondary'}>
+              <Card bg={'primary'}>
                   <Card.Title id="card-name" style={{textAlign:'center'}}>CASES</Card.Title>
                   <Card.Body>
                     <Container fluid>
@@ -142,7 +163,7 @@ function App() {
           <Col>
               <div id="search" >
                 <input id="searchBar" type="text" placeholder="Search Country" onChange={e=> setSearchCty(e.target.value)}/> <br/>
-                <label>**N.B:  First letter must be Capital</label>
+                <label>**N.B:  First letter must be Capital.Ex: " Bangladesh "</label>
               </div>
           </Col>
         </Row>
