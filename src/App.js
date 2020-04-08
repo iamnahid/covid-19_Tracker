@@ -85,20 +85,22 @@ function App() {
     
 
   return (
-    <div className="container-fluid" id="bodySec">
+    <div  id="bodySec">
+     
+        <div className="navContainer">
+            <ul>
+                <a id="navList" href='http://bit.ly/iamnahidFB'><img src={fb} alt=""/> </a>
+                <a id="navList" href='http://bit.ly/iamnahidLinkedIN'><img src={ld} alt=""/> </a>
+                <a id="navList" href='http://bit.ly/iamnahid_Web'><img src={web} alt=""/> </a>
+                <a id="navList" href='http://bit.ly/iamnahidBehance'><img src={bh} alt=""/> </a>
+                <a id="navList" href='http://bit.ly/iamnahidPin'><img src={pn} alt=""/> </a>
+                <a id="navList" href='http://bit.ly/iamnahid_github'><img src={gh} alt=""/> </a>
+            </ul>
+        </div> 
+        <div id="copyright">          
+          <p id="copyright-p">	&copy; 2020   <a id="copyright-a" href="https://iamnahid.github.io"> iamnahid </a> All Rights Reserved</p>
+        </div><br/><br/>
       <Container fluid style={{textAlign:'center'}}>
-        <Row>
-            <div className="navContainer">
-                <ul>
-                    <a id="navList" href='http://bit.ly/iamnahidFB'><img src={fb} alt=""/> </a>
-                    <a id="navList" href='http://bit.ly/iamnahidLinkedIN'><img src={ld} alt=""/> </a>
-                    <a id="navList" href='http://bit.ly/iamnahid_Web'><img src={web} alt=""/> </a>
-                    <a id="navList" href='http://bit.ly/iamnahidBehance'><img src={bh} alt=""/> </a>
-                    <a id="navList" href='http://bit.ly/iamnahidPin'><img src={pn} alt=""/> </a>
-                    <a id="navList" href='http://bit.ly/iamnahid_github'><img src={gh} alt=""/> </a>
-                </ul>
-            </div> 
-        </Row><br/><br/>
         <Row>          
           <Col><h1 style={{letterSpacing:'5px',color:'white'}}>IAMNAHID</h1></Col>
         </Row>

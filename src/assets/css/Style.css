@@ -5,6 +5,24 @@
         background-color: #121213;
         font-family: 'Source Sans Pro', sans-serif;
     }
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
 
 
     /* width */
@@ -86,6 +104,26 @@
     }
 
 
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
+
     .navContainer{
         position: relative;
         top: 0;
@@ -100,7 +138,7 @@
     }
     .navContainer > ul > a{
         position: relative;
-        left: 0%;
+        left: 15%;
         display: inline-grid;
         width: 8%;
         font-size: 0.9em;
@@ -260,6 +298,25 @@
     }
     
     
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
+
     .navContainer{
         position: relative;
         top: 0;
@@ -274,7 +331,7 @@
     }
     .navContainer > ul > a{
         position: relative;
-        left: 0%;
+        left: 15%;
         display: inline-grid;
         width: 8%;
         font-size: 0.9em;
@@ -302,6 +359,7 @@
         position: relative;
         margin-top: 15px;
     }
+    
     
     #card-name,#card-name-bd{
         letter-spacing: 5px;
@@ -446,6 +504,27 @@
 } */
 
 @media only screen and (max-width: 580px) {
+    
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
+
     .navContainer{
         position: relative;
         top: 0;
@@ -462,7 +541,7 @@
         position: relative;
         left: 0%;
         display: inline-grid;
-        width: 8%;
+        width: 5%;
         font-size: 0.9em;
         height: auto;
         text-align: center;
@@ -473,8 +552,8 @@
     }
     #navList,#navList-t{
         position: relative;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1.1em;
@@ -488,6 +567,7 @@
         position: relative;
         margin-top: 15px;
     }
+    
     
     #searchBar{
         position: relative;
@@ -654,6 +734,26 @@
     }
 
 
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
+
     .navContainer{
         position: relative;
         top: 0;
@@ -668,9 +768,9 @@
     }
     .navContainer > ul > a{
         position: relative;
-        left: -10%;
+        left: 0%;
         display: inline-grid;
-        width: 0%;
+        width: 6%;
         font-size: 0.9em;
         height: auto;
         text-align: center;
@@ -681,8 +781,8 @@
     }
     #navList,#navList-t{
         position: relative;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1.1em;
@@ -696,6 +796,7 @@
         position: relative;
         margin-top: 15px;
     }
+    
     
     #card-name,#card-name-bd{
         letter-spacing: 5px;
@@ -739,7 +840,7 @@
     #card-text1-s{border: 1px solid rgb(2, 250, 77);}
     #card-text1-c{border: 1px solid rgb(236, 233, 14);}
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 340px) {
     #bodySec{
         width: 100%;
         /* background-color: #1c1a27; */
@@ -828,13 +929,32 @@
         letter-spacing: 2px;
     }
 
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
 
     .navContainer{
         position: relative;
         top: 0;
         left: 0;
         width: 100%;
-        height: 4.5em;
+        height: 4em;
         z-index: 1000;
         background: linear-gradient(to right, #131313, #24243e);
     }
@@ -845,7 +965,7 @@
         position: relative;
         left: -10%;
         display: inline-grid;
-        width: 0%;
+        width: 4%;
         font-size: 0.9em;
         height: auto;
         text-align: center;
@@ -856,8 +976,8 @@
     }
     #navList,#navList-t{
         position: relative;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 1.1em;
@@ -871,6 +991,7 @@
         position: relative;
         margin-top: 15px;
     }
+    
     
     #card-name,#card-name-bd{
         letter-spacing: 5px;
@@ -913,4 +1034,73 @@
     #card-text1-d{border: 1px solid rgb(255, 0, 43);}
     #card-text1-s{border: 1px solid rgb(2, 250, 77);}
     #card-text1-c{border: 1px solid rgb(236, 233, 14);}
+}
+
+
+@media only screen and (max-width: 780px)
+{
+    #copyright{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        font-family: 'Source Sans Pro',sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    #copyright-p{
+        width: 100%;text-align: center;}
+    #copyright-a{
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        color: white;
+        /* text-shadow: 2px 2px 2px white; */
+    }
+    
+    .navContainer{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4.5em;
+        z-index: 1000;
+        background: linear-gradient(to right, #131313, #24243e);
+    }
+    .navContainer > ul{
+        display: inline;
+    }
+    .navContainer > ul > a{
+        position: relative;
+        left: 10%;
+        display: inline-grid;
+        width: 6%;
+        font-size: 0.9em;
+        height: auto;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        list-style: none;
+        background-color: rgba(255, 4, 4, 0);
+    }
+    #navList,#navList-t{
+        position: relative;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        color: rgb(255, 255, 255);
+    }
+    #navList-t{
+        line-height: 0;
+        letter-spacing: 5px;
+    }
+    #navList img{
+        position: relative;
+        margin-top: 15px;
+    }
+    
+
 }
