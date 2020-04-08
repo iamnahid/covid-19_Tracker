@@ -131,13 +131,14 @@ function App() {
           </Col>
         </Row> <br/>
         <Row>
+          
           <Col>
               <Card bg={'primary'}>
                   <Card.Title id="card-name" style={{textAlign:'center'}}>CASES</Card.Title>
                   <Card.Body>
                     <Container fluid>
                         <Row id="card-Row1" >
-                          <Card.Text id="card-text1"> CASE: {latest.cases} </Card.Text> <hr/>
+                          <Card.Text id="card-text2"> CASE: {latest.cases} </Card.Text> <hr/>
                           <p><small >last updated: {lastUpdated}</small> </p>
                         </Row>
                     </Container>
@@ -150,7 +151,7 @@ function App() {
                   <Card.Body>
                     <Container fluid>
                         <Row id="card-Row1" >
-                          <Card.Text id="card-text1"> CASE: {latest.deaths} </Card.Text> <hr/>
+                          <Card.Text id="card-text2"> CASE: {latest.deaths} </Card.Text> <hr/>
                           <p><small>last updated: {lastUpdated}</small> </p>
                         </Row> 
                     </Container>
@@ -163,14 +164,13 @@ function App() {
                   <Card.Body>
                     <Container fluid>
                         <Row id="card-Row1" >
-                          <Card.Text id="card-text1"> CASE: {latest.recovered} </Card.Text> <hr/>
+                          <Card.Text id="card-text2"> CASE: {latest.recovered} </Card.Text> <hr/>
                           <p><small > last updated:{lastUpdated}</small> </p>
                         </Row>
                     </Container>
                   </Card.Body>
               </Card>
-          </Col>
-         
+          </Col>         
         </Row>
         <br/>
         <br/>

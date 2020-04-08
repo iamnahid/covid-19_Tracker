@@ -33,7 +33,7 @@
         align-items: center;
         justify-content: center;
     }
-    #card-text,#card-text1, #card-text1-c, #card-text1-d,#card-text1-s, #card-text-danger, #card-text-success, #card-text-warning{
+    #card-text,#card-text1,#card-text2, #card-text1-c, #card-text1-d,#card-text1-s, #card-text-danger, #card-text-success, #card-text-warning{
         width: auto;
         color: white;
         margin: 5px;
@@ -150,7 +150,7 @@
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
     }
-    #card-text1, #card-text1-c, #card-text1-d,#card-text1-s{
+    #card-text1,#card-text2, #card-text1-c, #card-text1-d,#card-text1-s{
         position: relative;
         left: 25%;
         width: 50%;
@@ -166,6 +166,7 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
     }
+    
     #card-text1-d{border: 1px solid rgb(255, 0, 43);}
     #card-text1-s{border: 1px solid rgb(2, 250, 77);}
     #card-text1-c{border: 1px solid rgb(236, 233, 14);}
@@ -527,6 +528,23 @@
         position: relative;
         left: 25%;
         width: 50%;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(31, 34, 43);
+        border: 1px solid rgb(0, 195, 255);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    #card-text2
+    {
+        position: relative;
+        left: 0%;
+        width: 100%;
         color: white;
         margin: 5px;
         padding: 5px;
