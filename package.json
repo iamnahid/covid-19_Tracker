@@ -1,4 +1,5 @@
-{"homepage": "https://iamnahid.github.io/covid-19_Tracker/",
+{
+  "homepage": "https://iamnahid.github.io/covid-19_Tracker/",
   "name": "covid-19_tracker",
   "version": "0.1.0",
   "private": true,

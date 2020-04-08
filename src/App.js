@@ -14,6 +14,7 @@ function App() {
 
   const [latest, setLatest] = useState([]);
   const [results, setResults] = useState([]);
+  const [bd, setBD] = useState([]);
   const [searchCty, setSearchCty] = useState("");
 
 
@@ -21,12 +22,14 @@ function App() {
     {
       axios.all([
         axios.get("https://corona.lmao.ninja/all"), 
-        axios.get("https://corona.lmao.ninja/countries")
+        axios.get("https://corona.lmao.ninja/countries"),
+        axios.get("https://corona.lmao.ninja/countries/Bangladesh")
       ])     
       .then(responseArr =>
         {
           setLatest(responseArr[0].data);
           setResults(responseArr[1].data);
+          setBD(responseArr[2].data);
         })
         .catch(err =>
           {
@@ -100,22 +103,34 @@ function App() {
           <Col><h1 style={{letterSpacing:'5px',color:'white'}}>IAMNAHID</h1></Col>
         </Row>
         <Row>
-          <Col><h1 style={{letterSpacing:'5px',color:'white'}}>Covid-19 Tracker</h1></Col>
+          <Col><h1 style={{letterSpacing:'5px',color:'white'}}>Covid-19 Tracker v2.0</h1></Col>
         </Row><br/><br/>
         <Row>
-          {/* <Col>
-              <Card bg={'primary'}>
-                  <Card.Title id="card-name" style={{textAlign:'center'}}>Bangladesh</Card.Title>
-                  <Card.Body>
+          <Col>
+              <Card id="bd">
+                  <Card.Title id="card-name-bd" style={{textAlign:'center'}}>BANGLADESH</Card.Title><hr/>
                     <Container fluid>
                         <Row id="card-Row1" >
-                          <Card.Text id="card-text1"> CASE: {latest.cases} </Card.Text> <hr/>
-                          <p><small >{lastUpdated}</small> </p>
+                          <Card.Text id="card-text1"> CASE: {bd.cases} </Card.Text> <br/>
+                          
+                          <Card.Text id="card-text1"> ACTIVE: {bd.active} </Card.Text> 
+                          <Card.Text id="card-text1-d"> DEATHS: {bd.deaths} </Card.Text> 
+                          <Card.Text id="card-text1-c"> CRITICAL: {bd.critical} </Card.Text> 
+                          <Card.Text id="card-text1-s"> RECOVERED: {bd.recovered} </Card.Text> 
+                          <Card.Text id="card-text1"> TEST: {bd.tests} </Card.Text> <hr/>
+                          <Card.Text id="card-text1"> CASE (TODAY): {bd.todayCases} </Card.Text> 
+                          <Card.Text id="card-text1-d"> DEATHS (TODAY): {bd.todayDeaths} </Card.Text> <br/>
+                          
+                          <Card.Text id="card-text1"> CASES(PER MILLION): {bd.casesPerOneMillion} </Card.Text> 
+                          <Card.Text id="card-text1-d"> DEATHS(PER MILLION): {bd.deathsPerOneMillion} </Card.Text> 
+                          <Card.Text id="card-text1"> TESTS(PER MILLION): {bd.testsPerOneMillion} </Card.Text> 
+                          <p><small > last updated: {lastUpdated}</small> </p>
                         </Row>
                     </Container>
-                  </Card.Body>
               </Card>
-          </Col> */}
+          </Col>
+        </Row> <br/>
+        <Row>
           <Col>
               <Card bg={'primary'}>
                   <Card.Title id="card-name" style={{textAlign:'center'}}>CASES</Card.Title>
@@ -123,7 +138,7 @@ function App() {
                     <Container fluid>
                         <Row id="card-Row1" >
                           <Card.Text id="card-text1"> CASE: {latest.cases} </Card.Text> <hr/>
-                          <p><small >{lastUpdated}</small> </p>
+                          <p><small >last updated: {lastUpdated}</small> </p>
                         </Row>
                     </Container>
                   </Card.Body>
@@ -136,8 +151,8 @@ function App() {
                     <Container fluid>
                         <Row id="card-Row1" >
                           <Card.Text id="card-text1"> CASE: {latest.deaths} </Card.Text> <hr/>
-                          <p><small >{lastUpdated}</small> </p>
-                        </Row>
+                          <p><small>last updated: {lastUpdated}</small> </p>
+                        </Row> 
                     </Container>
                   </Card.Body>
               </Card>
@@ -149,7 +164,7 @@ function App() {
                     <Container fluid>
                         <Row id="card-Row1" >
                           <Card.Text id="card-text1"> CASE: {latest.recovered} </Card.Text> <hr/>
-                          <p><small >{lastUpdated}</small> </p>
+                          <p><small > last updated:{lastUpdated}</small> </p>
                         </Row>
                     </Container>
                   </Card.Body>
