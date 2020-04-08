@@ -68,7 +68,7 @@ function App() {
                         <Card.Text id="card-text"> Cases(Per Million): {data.casesPerOneMillion} </Card.Text>
                         <Card.Text id="card-text"> Deaths(Per Million): {data.deathsPerOneMillion} </Card.Text>
                         <Card.Text id="card-text"> Tests: {data.tests} </Card.Text>
-                        <Card.Text id="card-text"> Test(Per Million)): {data.testsPerOneMillion} </Card.Text>
+                        <Card.Text id="card-text"> Test(Per Million): {data.testsPerOneMillion} </Card.Text>
                       </Row>
                     </Container>   
                   </Card.Body>
