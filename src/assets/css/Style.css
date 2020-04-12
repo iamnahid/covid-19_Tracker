@@ -27,7 +27,7 @@
 
     /* width */
     ::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
         display: none;
     }
 
@@ -579,10 +579,16 @@
         width: 100%;
         text-align: center;
     }
-    
+    #country-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
     #cards-det{
         position: relative;
-        left: 5%;
+        left: 0%;
         width: 25em;
         height: 45em;
     }

@@ -48,7 +48,7 @@ function App() {
     const countries = filterCountry.map((data,i) => {
       return(
         
-        <div>
+        <div id="country-cards">
           
                 <Card key={i}  id="cards-det">
                   <Card.Img id="imgData" variant="top" src={data.countryInfo.flag} />
